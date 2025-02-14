@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://daeo8pi1jdqro"
-path="res://.godot/imported/Raquete.png-c142ccacc16b78982836a99556489cdd.ctex"
+uid="uid://ctghao3s3mmdx"
+path="res://.godot/imported/Asteroide3.png-208d83a7d53d8335149e518a264176d4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Space_pong/_Assets Space Pong/Raquete.png"
-dest_files=["res://.godot/imported/Raquete.png-c142ccacc16b78982836a99556489cdd.ctex"]
+source_file="res://Space_pong/Sprites/Asteroide3.png"
+dest_files=["res://.godot/imported/Asteroide3.png-208d83a7d53d8335149e518a264176d4.ctex"]
 
 [params]
 

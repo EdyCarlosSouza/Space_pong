@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqbmblf8l8rrq"
-path="res://.godot/imported/Fundo4.png-9f5334e380ee2fbc90c1ea23735e594d.ctex"
+uid="uid://coi88mhde5g1k"
+path="res://.godot/imported/Fundo6.png-28357ccfbbab056e8b7fcf9f0b814a49.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Space_pong/_Assets Space Pong/Fundo4.png"
-dest_files=["res://.godot/imported/Fundo4.png-9f5334e380ee2fbc90c1ea23735e594d.ctex"]
+source_file="res://Space_pong/Sprites/Fundo6.png"
+dest_files=["res://.godot/imported/Fundo6.png-28357ccfbbab056e8b7fcf9f0b814a49.ctex"]
 
 [params]
 

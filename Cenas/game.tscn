@@ -1,0 +1,52 @@
+[gd_scene load_steps=8 format=3 uid="uid://cu847jf4iodrt"]
+
+[ext_resource type="Texture2D" uid="uid://b3iiscegf22lj" path="res://Space_pong/Sprites/Fundo1.png" id="1_5g414"]
+[ext_resource type="PackedScene" uid="uid://djg5o5t5kcved" path="res://Space_pong/Cenas/player.tscn" id="2_m66ul"]
+[ext_resource type="PackedScene" uid="uid://eyqg5o76erna" path="res://Space_pong/Cenas/boll.tscn" id="3_rfs2r"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_u3icu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8i14a"]
+size = Vector2(582, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gxodi"]
+size = Vector2(24, 990.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pysgc"]
+size = Vector2(589, 20)
+
+[node name="Game" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+texture = ExtResource("1_5g414")
+centered = false
+
+[node name="Player" parent="Background" instance=ExtResource("2_m66ul")]
+position = Vector2(270, 884)
+
+[node name="Ball" parent="Background" instance=ExtResource("3_rfs2r")]
+position = Vector2(270, 850)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+physics_material_override = SubResource("PhysicsMaterial_u3icu")
+
+[node name="TopWall" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(269, -11)
+shape = SubResource("RectangleShape2D_8i14a")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+
+[node name="LeftWall" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(-13, 472.75)
+shape = SubResource("RectangleShape2D_gxodi")
+
+[node name="RightWall" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(550, 471.375)
+shape = SubResource("RectangleShape2D_gxodi")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="Hole" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(269, 970)
+shape = SubResource("RectangleShape2D_pysgc")
+debug_color = Color(0.997399, 0, 0.166812, 0.42)

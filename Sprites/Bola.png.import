@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0vf120qy33as"
-path="res://.godot/imported/Asteroide2.png-a6044a659f1f550d7a048891566bb18e.ctex"
+uid="uid://c328xmss0toqe"
+path="res://.godot/imported/Bola.png-1866cb6a86de5521fefc654f6bbb182b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Space_pong/_Assets Space Pong/Asteroide2.png"
-dest_files=["res://.godot/imported/Asteroide2.png-a6044a659f1f550d7a048891566bb18e.ctex"]
+source_file="res://Space_pong/Sprites/Bola.png"
+dest_files=["res://.godot/imported/Bola.png-1866cb6a86de5521fefc654f6bbb182b.ctex"]
 
 [params]
 
